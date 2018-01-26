@@ -13,8 +13,9 @@ do
   else
     force=1
   fi
-
-  if [ $i == 20500 ]
+  
+  #easy timer
+  if [ $i == 40500 ]
   then
     exit 1
   fi
