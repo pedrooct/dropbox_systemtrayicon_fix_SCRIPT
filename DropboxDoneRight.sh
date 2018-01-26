@@ -2,6 +2,7 @@
 #made by : Pedro Costa
 #test variable
 force=5
+i=0
 #while to test
 while [ $force != 0 ]
 do
@@ -12,6 +13,15 @@ do
   else
     force=1
   fi
+
+  if [ $i == 20500 ]
+  then
+    exit 1
+  fi
+
+  i=`expr $i + 1`
+  echo $i
+
 done
 dropbox stop && dbus-launch dropbox start
 exit 1
