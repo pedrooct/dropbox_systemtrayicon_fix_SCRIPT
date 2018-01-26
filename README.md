@@ -2,7 +2,7 @@
 This script fixes the bug on linux of dropbox in system tray
 
 
-#HOW TO
+# HOW TO
 
 1-First download the file.
 2-Place it in a folder of your choice.
