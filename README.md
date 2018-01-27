@@ -1,4 +1,4 @@
-# dropbox_systemtrayicon_fix_SCRIPTT
+# dropbox_systemtrayicon_fix_SCRIPT
 This script fixes the bug on linux of dropbox in system tray
 
 
