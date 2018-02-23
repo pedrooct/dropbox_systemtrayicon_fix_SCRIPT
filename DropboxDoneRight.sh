@@ -24,5 +24,6 @@ do
   echo $i
 
 done
-dropbox stop && dbus-launch dropbox start
+#ubuntu based - dropbox stop && dbus-launch dropbox start
+#elementary - dropbox stop && env XDG_CURRENT_DESKTOP=Unity QT_STYLE_OVERRIDE='' dropbox start
 exit 1
